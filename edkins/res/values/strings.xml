@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">Edkins</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Edkins</string>
+    
+    <string name="text_view_hot_drinks">Select a Hot Drink:</string>
+    <string-array name="array_hot_drinks">
+        <item>Ceylon Tea (Five Roses)</item>
+        <item>Earl Grey Tea</item>
+        <item>Rooibos Tea</item>
+        <item>Filter Coffee</item>
+        <item>Instant Coffee</item>
+        <item>Cappuccino</item>
+        <item>Hot Chocolate</item>
+        <item>Milo</item>
+    </string-array>
+	<string name="button_send_request">Page Edkins</string>
+	
+</resources>
