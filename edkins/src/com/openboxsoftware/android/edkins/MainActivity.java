@@ -13,6 +13,7 @@ import com.openboxsoftware.android.mail.MailTask;
 public class MainActivity extends Activity {
 
 	private MailSender mailSender;
+	private String name = "Zac Blazic";
 	
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -37,11 +38,11 @@ public class MainActivity extends Activity {
     					 "Please prepare the following:\n" + 
     					 "1 X " + spinner.getSelectedItem().toString() + "\n\n" + 
     					 "To be delivered to:\n" +
-    					 "Zac Blazic\n\n" + 
+    					 name + "\n\n" + 
     					 "Hurry along now, old chap!";
     	
-    	Mail mail = new Mail("edkins", "zacblazic@gmail.com");
-    	mail.setSubject("New Edkins Page");
+    	Mail mail = new Mail("edkins", "gedkins@openboxsoftware.com");
+    	mail.setSubject("New Edkins Page: Hot Drink Request");
     	mail.setBody(message);
     	
     	new MailTask(this, mailSender).execute(mail);
